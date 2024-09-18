@@ -15,16 +15,16 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(rgb(255, 255, 255),rgb(80, 63, 84));
+    background: radial-gradient(rgb(255, 255, 255),rgb(140, 136, 141));
 }
 .card{
     height: 50vh;
     width: 50vw;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(201, 54, 54);
     overflow: hidden;
     display: flex;
     border-radius: 10px;
-    filter: drop-shadow(1px 1px 15px rgb(79, 84, 14));
+    filter: drop-shadow(1px 1px 15px rgb(203, 204, 186));
    
 }
 .left{
@@ -39,7 +39,7 @@ html,body{
 
 .right{
     height: 100%;
-    width: 50%;
+    width: 30vw;
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -49,11 +49,13 @@ html,body{
     gap: 20px;
 }
 .right p{
-    margin-left: 40px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .rating{
     display: flex;
-    color: gold;
+    color: rgb(178, 153, 9);
 }
 @media(max-width:600px){
     
